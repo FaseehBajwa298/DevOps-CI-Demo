@@ -13,6 +13,12 @@ Simple Python app to demonstrate creating a GitHub repository and pushing code.
 python app.py
 ```
 
+### Run with a custom name
+
+```bash
+python app.py --name "Faseeh"
+```
+
 ## Initialize Git and push to GitHub (recommended via GitHub CLI)
 
 ```bash
