@@ -1,5 +1,9 @@
 import sys
 import subprocess
+from pathlib import Path
+
+# Ensure repository root is on sys.path for importing app.py
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import app
 
